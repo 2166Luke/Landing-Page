@@ -3,53 +3,168 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1f2937;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.logo{
+    font-size: 22px;
+    color: #f9faf8;
+    padding-left: 50px;
+    margin: 0;
 }
 
 .headerlink {
     display: flex;
     gap: 2em;
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+.body {
+    flex:1;
 }
 
 .hero {
     display: flex;
-    padding: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    flex: 1;
+    padding: 50px;
+    gap: 20px;
+}
+
+.herotext {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
 }
 
 .hero1 {
     display: flex;
+    flex-wrap: wrap;
+    color: #e5e7eb;
+    font-size: 18px;
     flex-direction: column;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.heroimg {
+    max-width: 500px;
+    height: auto;
+    box-shadow: 5px 5px 6px #151c25;
+    
+}
+
+.infohead {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 0;
+    text-align: center;
+    padding: 25px;
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
     flex-wrap: wrap;
 }
 
-.container {
+.item {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 150px;
+    text-align: center;
+}
 
+.imgcard {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
+    background-color: #e5e7eb;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.quotetxt {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: left;
+}
+
+.quotee {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 60px;
+}
+
+.popupcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
 }
 
 .popup {
     display: flex;
+    background-color: #3882f6;
+    max-height: fit-content;
+    max-width: fit-content;
+    border-radius: 8px;
+    align-items: center;
+    padding: 30px 80px;
+    gap: 25px;
 }
 
 .popuptext {
     display: flex;
     flex-direction: column;
+    color: #f9faf8;
+    justify-content: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+.popupbtn {
+    height: 28px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 35px;
 }
 
 ul {
@@ -60,4 +175,21 @@ ul {
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+}
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 5px 15px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    border-color: #3882f6;
 }
