@@ -80,6 +80,7 @@ p {
     margin: 0;
     text-align: center;
     padding: 25px;
+    padding-top: 120px;
 }
 
 .infocontainer {
@@ -87,6 +88,7 @@ p {
     justify-content: center;
     gap: 35px;
     flex-wrap: wrap;
+    padding-bottom: 120px;
 }
 
 .item {
